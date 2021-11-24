@@ -1,0 +1,29 @@
+{
+    "name": "weather station 2.0: reciver",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "ds1307": "github:tinkertanker/pxt-realtimeclock-ds1307#cac7e9e8edf290e6f12cb3920f014c20d39feb58",
+        "pxt-kitronik-rtc": "github:kitronikltd/pxt-kitronik-rtc#v1.0.2",
+        "DS1307": "github:makecode-extensions/ds1307#v1.2.0",
+        "gatorRTC": "github:sparkfun/pxt-gator-rtc#v0.0.46",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
